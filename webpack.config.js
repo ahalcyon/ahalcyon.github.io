@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const path = require("path");
 
 module.exports = {
@@ -5,17 +6,17 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, "public"),
-    filename: "bundle.js"
+    filename: "bundle.js",
   },
 
   module: {
-    rules: [{ test: /\.tsx?$/, loader: "ts-loader" }]
+    rules: [{ test: /\.tsx?$/, loader: "ts-loader" }],
   },
 
   resolve: {
-    extensions: [".ts", ".tsx", ".js"]
+    extensions: [".ts", ".tsx", ".js"],
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "public")
-  }
+    contentBase: path.resolve(__dirname, "public"),
+  },
 };

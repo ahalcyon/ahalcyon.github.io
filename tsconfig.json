@@ -11,7 +11,8 @@
     "types": [
       "react"
     ],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "strictNullChecks": true
   },
   "include": [
     "src"
