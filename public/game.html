@@ -1,22 +1,20 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>TypeScript HelloWorld</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <title>Tic-tac-toe Game</title>
     <link rel="stylesheet" href="./css/game.css" />
   </head>
   <body>
-    <div
-      id="errors"
-      style="
-            background: #c00;
-            color: #fff;
-            display: none;
-            margin: -20px -20px 20px;
-            padding: 20px;
-            white-space: pre-wrap;
-          "
-    ></div>
+    <h1>Lets Play Tic-tac-toe Game!</h1>
     <div id="root"></div>
+    <script src="bundle.js"></script>
+
     <script>
       window.addEventListener("mousedown", function(e) {
         document.body.classList.add("mouse-navigation");
