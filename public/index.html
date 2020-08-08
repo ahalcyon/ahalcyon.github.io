@@ -2,21 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148591920-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-148591920-1");
+    </script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0"
     />
-    <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="./asset/icon-192.png" sizes="192x192"/>
-    <link rel="apple-touch-icon" href="./asset/icon-256.png" sizes="256x256"/>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="./asset/icon-192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="./asset/icon-256.png" sizes="256x256" />
     <script>
-    if('serviceWorker' in navigator){
-      navigator.serviceWorker.register('serviceWorker.js').then(function(){
-        console.log("Service Worker is registered!!");
-      });
-    }
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("serviceWorker.js").then(function () {
+          console.log("Service Worker is registered!!");
+        });
+      }
     </script>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
