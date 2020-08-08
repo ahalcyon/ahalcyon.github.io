@@ -1,0 +1,14 @@
+{
+  "name"              : "TicTac",
+  "short_name"        : "TicTacToePWA",
+  "description"       : "TicTacToeのPWA",
+  "start_url"         : "/?pwa=1",
+  "display"           : "standalone",
+  "background_color"  : "#ff0000",
+  "theme_color"       : "#ff0000",
+  "icons": [{
+      "src"           : "/icon.png",
+      "sizes"         : "1300x1300",
+      "type"          : "image/jpg"
+    }]
+}
