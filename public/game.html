@@ -8,6 +8,13 @@
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/asset/icon-192.png" sizes="192x192"/>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/asset/icon-256.png" sizes="256x256"/>
+    <script>
+      if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('serviceWorker.js').then(function(){
+          console.log("Service Worker is registered!!");
+        });
+      }
+      </script>
     <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <title>Tic-tac-toe Game</title>
