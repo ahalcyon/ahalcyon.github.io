@@ -1,6 +1,6 @@
 {
   "name": "TicTac",
-  "short_name": "TicTacToePWA",
+  "short_name": "TicTac",
   "description": "TicTacToeのPWA",
   "start_url": "/?pwa=1",
   "display": "standalone",
