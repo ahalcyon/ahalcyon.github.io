@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no"
     />
     <link rel="manifest" href="manifest.json">
     <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
@@ -13,6 +13,20 @@
   </head>
   <body>
     <h1>Lets Play Tic-tac-toe Game!</h1>
+    <form method="post">
+      <p>
+        <select type="tel" name="BoardSize" id="board_size" maxlength="9">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </p>
+      <p><input type="submit" value="送信する" /></p>
+    </form>
     <div id="root"></div>
     <script src="bundle.js"></script>
 
